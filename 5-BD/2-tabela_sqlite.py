@@ -1,7 +1,7 @@
 import sqlite3
 
 # 1 - Conectando no BD
-connection = sqlite3.connect('title.db') # O connect tem duas funções, se o banco de dados não esxistir ele cria se existir ele conecta ao banco de dados
+connection = sqlite3.connect('title.db') # O connect tem duas funções, se o banco de dados não existir ele cria se existir ele conecta ao banco de dados
 
 # 2 - Criando um cursor
 '''
